@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minebase.API", "Minebase.AP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minebase.Domain", "Minebase.Domain\Minebase.Domain.csproj", "{5E683DF5-8786-4E6A-A5AB-BCC6A82A5DE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minebase.Data", "Minebase.Data\Minebase.Data.csproj", "{41D0E551-2210-425E-9EBC-245B1CE4173D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{5E683DF5-8786-4E6A-A5AB-BCC6A82A5DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E683DF5-8786-4E6A-A5AB-BCC6A82A5DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E683DF5-8786-4E6A-A5AB-BCC6A82A5DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41D0E551-2210-425E-9EBC-245B1CE4173D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D0E551-2210-425E-9EBC-245B1CE4173D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D0E551-2210-425E-9EBC-245B1CE4173D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D0E551-2210-425E-9EBC-245B1CE4173D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
