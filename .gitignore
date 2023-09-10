@@ -5,3 +5,10 @@ Minebase.API/obj
 
 Minebase.Domain/bin
 Minebase.Domain/obj
+
+Minebase.Data/bin
+Minebase.Data/obj
+Minebase.Data/Migrations
+Minebase.Data/minebase.db
+Minebase.Data/minebase.db-shm
+Minebase.Data/minebase.db-wal
