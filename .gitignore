@@ -2,6 +2,7 @@
 
 Minebase.API/bin
 Minebase.API/obj
+Minebase.API/appsettings.Development.json
 
 Minebase.Domain/bin
 Minebase.Domain/obj
