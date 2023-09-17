@@ -13,9 +13,12 @@ public class Recipe : Entity
     /// The item this recipe produces.
     /// </summary>
     public Item Product { get; set; }
-   
+    
     /// <summary>
     /// A collection of ingredients required to produce the item.
     /// </summary>
-    public ICollection<Item> Ingredients { get; set; }
+    public List<Item> Ingredients { get; } = new();
+    
+    
+    public List<ItemRecipe> ItemRecipes { get; } = new();
 }

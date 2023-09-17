@@ -1,4 +1,6 @@
-﻿namespace Minebase.Domain.Models;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Minebase.Domain.Models;
 
 /// <summary>
 /// A class representing an item.
@@ -19,4 +21,12 @@ public class Item : Entity
     /// The unique string identifier of the item.
     /// </summary>
     public string Tag { get; set; }
+
+    /// <summary>
+    /// The collection of recipes this item is used in.
+    /// </summary>
+    public List<Recipe> Recipes { get; } = new();
+    
+
+    public List<ItemRecipe> ItemRecipes { get; } = new();
 }

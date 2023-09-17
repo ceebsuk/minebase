@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Minebase.Data.Configurations;
 using Minebase.Domain.Models;
 
 namespace Minebase.Data.Context;
@@ -20,5 +21,14 @@ public class MinebaseDbContext : DbContext
     
     public MinebaseDbContext(DbContextOptions<MinebaseDbContext> options) : base(options)
     {
+    }
+    
+    // Override the OnModelCreating method to configure entity relations.
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+
+        modelBuilder.ApplyConfiguration(new ItemConfiguration());
+        modelBuilder.ApplyConfiguration(new RecipeConfiguration());
     }
 }
